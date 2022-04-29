@@ -1,0 +1,15 @@
+.custom-control {
+  color: black !important;
+  transition: all 0.3s;
+  padding: 10px 20px;
+  height: 50px;
+}
+.custom-control:focus {
+  color: white !important;
+  border-color: transparent;
+  background-color: #03262c;
+  box-shadow: none;
+}
+.custom-control:focus::placeholder {
+  color: #fff;
+}

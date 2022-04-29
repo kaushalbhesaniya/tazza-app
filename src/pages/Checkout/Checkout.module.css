@@ -1,0 +1,81 @@
+.order_part {
+  padding: 100px 0;
+}
+
+.order_txt h2 {
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  color: #232323;
+}
+
+.order_txt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  padding-top: 10px;
+}
+
+.card_total,
+.payment_head {
+  border: none;
+  background-color: #03262c;
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.total_num {
+  color: #54b215;
+  font-weight: 700;
+}
+
+.payment_head {
+  background-color: #e2f6de !important;
+  text-align: center;
+  color: #232323 !important;
+
+  padding: 15px !important;
+}
+.billing_head h2 {
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  color: #232323;
+}
+
+.form-control-form {
+  color: #fff !important;
+  transition: all 0.3s;
+  padding: 10px 20px;
+  height: 50px;
+}
+.form-control-form:focus {
+  border-color: transparent;
+  background-color: #03262c;
+  box-shadow: none;
+}
+.form-control-form:focus::placeholder {
+  color: #fff;
+}
+
+.form-controls-form {
+  color: #fff !important;
+  transition: all 0.3s;
+  padding: 10px 20px;
+  /* height: 50px; */
+}
+.form-controls-form:focus {
+  border-color: transparent;
+  background-color: #03262c;
+  box-shadow: none;
+}
+.form-controls-form:focus::placeholder {
+  color: #fff;
+}
+
+.payment_method .form-check label.form-check-label {
+  margin-left: 10px;
+}

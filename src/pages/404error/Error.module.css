@@ -1,0 +1,18 @@
+.error_part {
+  padding-top: 80px;
+}
+
+.error_content h4 {
+  font-size: 46px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  color: #03262c;
+}
+
+.error_content p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #727474;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}

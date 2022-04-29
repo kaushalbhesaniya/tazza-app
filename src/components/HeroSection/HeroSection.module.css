@@ -1,0 +1,28 @@
+/* HERO SECTION PART CSS START*/
+/*------------------------------------------*/
+.hero_section {
+  background: url(../../assets/product_hero_section_bg.jpg);
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  padding-top: 150px;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.png_img {
+  position: absolute;
+  width: 200px;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+}
+
+.herosection_content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  position: relative;
+}

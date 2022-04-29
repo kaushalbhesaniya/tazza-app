@@ -1,0 +1,134 @@
+.form-control:focus {
+  border-color: transparent;
+  background-color: #03262c;
+  box-shadow: none;
+}
+.blog_part {
+  padding: 100px 0;
+}
+
+.post_category {
+  padding: 20px 30px;
+  border: 2px solid #e9f8e6;
+  margin-top: 50px;
+}
+
+.search_ber {
+  position: relative;
+}
+
+.search_button {
+  height: 50px;
+  padding-right: 55px;
+}
+
+.search_ber i {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(to right, #0f7404, #5cb917);
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.post_head h3 {
+  padding-bottom: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #03262c;
+}
+
+.populer_btn ul li {
+  font-size: 16px;
+  color: #03262c;
+  padding: 10px 30px;
+  border: 1px solid #e9f8e6;
+  display: inline-block;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: 500;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.populer_btn ul li:hover {
+  border: 1px solid #5cb917;
+}
+
+.date span {
+  color: #03262c;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.date span i {
+  font-size: 16px;
+  color: #5cb917;
+  padding-right: 10px;
+}
+
+.fav_icon span {
+  font-size: 16px;
+  padding-right: 15px;
+  font-weight: 500;
+}
+
+.fav_icon span i {
+  font-size: 16px;
+  padding-right: 5px;
+  color: #5cb917;
+}
+
+.blog_title h4 a {
+  font-size: 28px;
+  color: #03262c;
+  font-weight: 600;
+  padding: 15px 0;
+  line-height: 1.2;
+  /*text-transform: capitalize;*/
+}
+.blog_title {
+  margin-bottom: 2.1rem;
+}
+
+.blog_title a {
+  padding-top: 20px;
+  color: #5cb917;
+  font-size: 16px;
+  font-weight: bold;
+}
+.pages_num ul li {
+  margin: 2px;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #dde7db;
+  border-radius: 50%;
+  line-height: 43px;
+  transition: all 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+
+.pages_num ul li a {
+  font-size: 16px;
+  color: #222;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.pages_num ul li:hover {
+  background: linear-gradient(to right, #0f7404, #5cb917);
+}
+
+.pages_num ul li:hover a {
+  color: #fff;
+}
