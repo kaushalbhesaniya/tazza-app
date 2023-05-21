@@ -62,7 +62,6 @@ const schema = Yup.object().shape({
 });
 const Checkout = () => {
   const {
-    register,
     handleSubmit,
     control,
     formState: { errors },

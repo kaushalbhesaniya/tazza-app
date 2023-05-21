@@ -2,9 +2,7 @@ import React, { useContext } from "react";
 import styles from "./CardTotal.module.css";
 import Button from "../../components/Button/Button";
 import { CartContext } from "../../store/cart-context";
-import { bestSellers } from "../../looping/looping";
 import { Link } from "react-router-dom";
-import Checkout from "../../pages/Checkout/Checkout";
 const CardTotal = () => {
   const cartCtx = useContext(CartContext);
 

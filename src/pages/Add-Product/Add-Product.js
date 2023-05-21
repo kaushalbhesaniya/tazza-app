@@ -8,7 +8,7 @@ const AddProduct = () => {
   const [img, setImg] = useState();
   const [quantity, setQuentity] = useState();
 
-  const [data, setdata] = useState({});
+
 
   const nameHandler = (event) => {
     setName(event.target.value);

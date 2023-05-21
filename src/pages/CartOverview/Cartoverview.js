@@ -2,8 +2,6 @@ import React, { useContext } from "react";
 import { CartContext } from "../../store/cart-context";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import styles from "./CartOverview.module.css";
-
-import { useEffect } from "react";
 import CardTotal from "../../components/CardTotal/CardTotal";
 
 const Cartoverview = () => {

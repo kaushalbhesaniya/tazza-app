@@ -1,4 +1,4 @@
-import React, { useReducer, useState } from "react";
+import React, { useReducer } from "react";
 import { bestSellers } from "../looping/looping";
 
 //import { bestSellers } from "../looping/organic";

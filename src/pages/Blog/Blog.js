@@ -4,7 +4,6 @@ import PopularTag from "../../components/PopularTag/PopularTag";
 import PostCategory from "../../components/Post_category/PostCategory";
 import RecentPost from "../../components/RecentPosst/RecentPost";
 import styles from "./Blog.module.css";
-import News1 from "../../assets/news1.jpg";
 import FormInput from "../../components/FormInput/FormInput";
 import { blog } from "../../looping/looping";
 import { Link } from "react-router-dom";

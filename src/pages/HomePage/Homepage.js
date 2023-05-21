@@ -1,10 +1,9 @@
-import React, { useContext, useEffect, useLayoutEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import styles from "./Homepage.module.css";
 import Icofont from "react-icofont";
-import { Route, Switch, useParams } from "react-router";
+
 import Slider from "react-slick";
 import { CartContext } from "../../store/cart-context";
-import Product from "../product/Product";
 import { Link } from "react-router-dom";
 import Testimonial from "../../assets/testimonial-1.png";
 
@@ -104,14 +103,8 @@ const Homepage = (props) => {
   const setProduct = (value) => {
     cartCtx.addItem(value);
   };
-  const [getedData, setGetedData] = useState([
-    // {
-    //   id: Math.random(),
-    //   name: "No Product",
-    //   prevPrice: "prevPrice",
-    //   curPrice: "curPrice",
-    //   img: "123",
-    // },
+  const [setGetedData] = useState([
+
   ]);
 
   useEffect(() => {

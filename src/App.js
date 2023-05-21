@@ -4,7 +4,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import Footer from "./components/Footer/Footer";
 import Homepage from "./pages/HomePage/Homepage";
-import { Route, Switch, useLocation } from "react-router";
+import { Route, useLocation } from "react-router";
 import Product from "./pages/product/Product";
 import Checkout from "./pages/Checkout/Checkout";
 import Blog from "./pages/Blog/Blog";
